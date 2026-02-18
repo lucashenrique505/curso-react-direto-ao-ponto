@@ -24,7 +24,7 @@ const TimerForm = ({ setTimers }) => {
           className={styles.input}
           name="name"
           placeholder="Nome"
-          defaultValue="Teste"
+          // defaultValue="Teste"
         />
         <input
           type="number"
@@ -32,7 +32,7 @@ const TimerForm = ({ setTimers }) => {
           name="duration"
           placeholder="Duração (segundos)"
           min="1"
-          defaultValue="4"
+          // defaultValue="4"
         />
         <input type="submit" className={styles.submitButton} value="+" />
       </form>

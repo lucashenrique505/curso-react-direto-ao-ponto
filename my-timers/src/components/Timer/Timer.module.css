@@ -2,11 +2,16 @@
   width: 80%;
   background-color: white;
   padding: 1rem;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
   border-radius: 5px;
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .initialDuration {
@@ -48,4 +53,6 @@
 }
 
 .delete {
+  padding: 0.25rem 0.5rem;
+  background-color: crimson;
 }
