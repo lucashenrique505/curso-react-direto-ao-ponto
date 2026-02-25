@@ -6,5 +6,5 @@ Podemos usar memoization de 3 formas diferentes no React:
 - [x] "Memoizar" uma função
   - useCallback
 
-- [ ] "Memoizar" um valor
+- [x] "Memoizar" um valor
   - useMemo
